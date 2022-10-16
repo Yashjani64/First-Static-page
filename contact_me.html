@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me!</title>
+    <link rel="stylesheet" href="css/contact_me.css" />
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <!--Section 1 <h1> Header an introduction
+    message i.e. “Hello World!”-->
+    <header>
+      <img src="images/11.png" />
+    </header>
+
+    <!--Section 2 Navigation Links  -->
+    <nav>
+      <h1 class="containerheadertext">Navigation!</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="contact_me.html">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!--Section 3 Main content of the website -->
+    <main>
+      <h1 class="containerheadertextmain">Connect with me!</h1>
+      <div class="container">
+        <form action="">
+          <label for="fname">Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+            required
+          />
+
+          <label for="lname">Subject</label>
+          <input
+            type="text"
+            id="sub"
+            name="subject"
+            placeholder="Your last Subject.."
+            required
+          />
+
+          <label for="subject">Message</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 100px"
+            required
+          ></textarea>
+
+          <!-- <input type="submit" value="Submit" /> -->
+          <button onclick="showAlert()">Submit</button>
+        </form>
+      </div>
+    </main>
+
+    <!--Section 4 aside links  -->
+    <aside>
+      <h1 class="containerheadertext">LET US CONNECT Soon!!!</h1>
+    </aside>
+
+    <!--Section 5 Footer -->
+    <footer>
+      <h1 class="footertext">Copyright M© HelloWorld.com</h1>
+    </footer>
+  </body>
+</html>
